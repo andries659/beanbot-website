@@ -14,7 +14,7 @@
     "changes": [
       { "tag": "Changed", "text": "/steal cooldown is now 30 minutes (was 5)." },
       { "tag": "Changed", "text": "/rob cooldown is now 2 hours (was 1)." },
-      { "tag": "Added", "text": "/gamble now has a 1-hour cooldown." }
+      { "tag": "Added", "text": "/gamble now has a 2-hour cooldown." }
     ]
   }
 ]
