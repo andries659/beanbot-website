@@ -1,17 +1,11 @@
 [
   {
     "date": "2026-09-30",
-    "title": "Monthly seasons",
+    "title": "Monthly seasons & cooldown changes",
     "changes": [
       { "tag": "Added", "text": "Seasons reset on the 1st of every month. Your score is the beans you earn, not your balance, so spending in the shop never hurts your rank." },
       { "tag": "Added", "text": "The top 5 players win a bean bonus when the season ends, paid straight into their balance." },
-      { "tag": "Added", "text": "/season shows standings and time left. /seasonhistory shows past winners." }
-    ]
-  },
-  {
-    "date": "2026-09-30",
-    "title": "Tougher cooldowns",
-    "changes": [
+      { "tag": "Added", "text": "/season shows standings and time left. /seasonhistory shows past winners." },
       { "tag": "Changed", "text": "/steal cooldown is now 30 minutes (was 5)." },
       { "tag": "Changed", "text": "/rob cooldown is now 2 hours (was 1)." },
       { "tag": "Added", "text": "/gamble now has a 2-hour cooldown." }
