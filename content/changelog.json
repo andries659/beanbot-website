@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10-01",
+    "title": "Cooldown Changes (again)",
+    "changes": [
+      { "tag": "Changed", "text": "/beg cooldown is now 30 minutes (was 5 minutes)." }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "title": "Monthly seasons & cooldown changes",
     "changes": [
@@ -9,13 +16,6 @@
       { "tag": "Changed", "text": "/steal cooldown is now 30 minutes (was 5)." },
       { "tag": "Changed", "text": "/rob cooldown is now 2 hours (was 1)." },
       { "tag": "Added", "text": "/gamble now has a 2-hour cooldown." }
-    ]
-  },
-  {
-    "date": "2026-10-01",
-    "title": "Cooldown Changes (again)",
-    "changes": [
-      { "tag": "Changed", "text": "/beg cooldown is now 30 minutes (was 5 minutes)." }
     ]
   }
 ]
