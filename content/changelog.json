@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10-03",
+    "title": "Cooldown Changes (again)",
+    "changes": [
+      { "tag": "Fixed", "text": "<:sneaky_gloves:1551904966975688825> Sneaky Gloves now properly work." },
+      { "tag": "Changed", "text": "<:sneaky_gloves:1551904966975688825> Sneaky Gloves now have 3 uses, and only add 10% to the steal chance." },
+      { "tag": "Changed", "text": "Stock for items no longer is set for daily, but weekly." }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "title": "Cooldown Changes (again)",
     "changes": [
