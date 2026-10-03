@@ -1,4 +1,5 @@
 import changelog from "../../content/changelog.json";
+import Emoji from "../../components/Emoji";
 
 export const metadata = { title: "Changelog" };
 
