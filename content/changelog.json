@@ -3,6 +3,14 @@
     "date": "2026-10-03",
     "title": "Bug Fixes",
     "changes": [
+      { "tag": "Added", "text": "Using bombs now have a cooldown of 10 minutes." },
+      { "tag": "Changed", "text": "Streaks for dily rewards now have streak flames, not just the plain fire emoji." }
+    ]
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Bug Fixes",
+    "changes": [
       { "tag": "Fixed", "text": "Sneaky Gloves now properly work." },
       { "tag": "Changed", "text": "Sneaky Gloves now have 3 uses, and only add 10% to the steal chance." },
       { "tag": "Changed", "text": "Stock for items no longer is set for daily, but weekly." }
