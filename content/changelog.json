@@ -4,7 +4,7 @@
     "title": "Simple Improvements",
     "changes": [
       { "tag": "Added", "text": "Using bombs now have a cooldown of 10 minutes." },
-      { "tag": "Changed", "text": "Streaks for dily rewards now have streak flames, not just the plain fire emoji." }
+      { "tag": "Changed", "text": "Streaks for daily rewards now have streak flames, not just the plain fire emoji." }
     ]
   },
   {
