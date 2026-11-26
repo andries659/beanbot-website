@@ -65,6 +65,8 @@ export const features = [
     items: [
       { name: "/rank", text: "See your level and XP." },
       { name: "/leaderboard", text: "The XP leaderboard." },
+      { name: "/setbackground", text: "Set a custom rank card background from a link to an image or GIF. GIFs make an animated card." },
+      { name: "/resetbackground", text: "Remove your custom rank card background. Admins can also reset another member's." },
       { name: "/setxp", text: "Set a member's XP.", admin: true },
       { name: "/givexp", text: "Give XP to a member.", admin: true },
       { name: "/editlevel", text: "Change a member's level.", admin: true },
@@ -82,6 +84,30 @@ export const features = [
       { name: "/listlobbychannels", text: "List the forums that are monitored.", admin: true },
       { name: "/setlobbywarn", text: "Set how long before the bot posts an inactivity warning.", admin: true },
       { name: "/lobbyclosedelay", text: "Set how long after the warning the thread is closed.", admin: true },
+    ],
+  },
+  {
+    title: "<:tickets:1575455352558981150> Tickets",
+    blurb: "Need help from staff? Send the bot a DM and pick a category from the dropdown. A private thread opens in the server's ticket forum, staff reply there, and their messages are sent back to you in your DMs. Servers start with tickets locked, so an admin has to set them up and unlock them first.",
+    items: [
+      { name: "Open a ticket", text: "Send the bot a DM, then choose a category. If you're in more than one server with tickets, you pick the server first." },
+      { name: "Claim and close", text: "Staff use the buttons on the ticket to claim it and close it. Closing sends you a message and saves a transcript to the log channel." },
+      { name: "Internal notes", text: "Staff can start a message with // to leave a note that isn't sent to the user." },
+      { name: "/tickets setforum", text: "Choose the forum channel where tickets are opened.", admin: true },
+      { name: "/tickets setlogchannel", text: "Choose where ticket logs and transcripts are sent.", admin: true },
+      { name: "/tickets addrole", text: "Add a role that is pinged when a ticket opens. These roles also count as ticket staff.", admin: true },
+      { name: "/tickets removerole", text: "Stop pinging a role when tickets open.", admin: true },
+      { name: "/tickets lock", text: "Stop new tickets from being opened. Tickets that are already open keep working.", admin: true },
+      { name: "/tickets unlock", text: "Let members open tickets again.", admin: true },
+      { name: "/tickets status", text: "See the forum, log channel, ping roles and whether tickets are locked.", admin: true },
+    ],
+  },
+  {
+    title: "<:updates:1575479510042935336> Changelog",
+    blurb: "Every time the bot gets an update, the changelog from the website is posted in your server as an embed. Pick a channel, and optionally a role to ping above each update.",
+    items: [
+      { name: "/setchangelogchannel", text: "Choose where bot changelogs are posted.", admin: true },
+      { name: "/setchangelogrole", text: "Choose a role to ping with each changelog. Leave it empty to stop pinging.", admin: true },
     ],
   },
   {
