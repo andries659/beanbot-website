@@ -5,7 +5,7 @@
     "changes": [
       { "tag": "Added", "text": "Users can set their own rank card bg (Can be a GIF or Image, but you need to use the link)." },
       { "tag": "Added", "text": "Added a new ticket system (Locked till 2027)." },
-      { "tag": "Changed", "text": "Changelogs now ping a set role for changelogs." },
+      { "tag": "Changed", "text": "Changelogs now ping a set role for changelogs." }
     ]
   },
   {
