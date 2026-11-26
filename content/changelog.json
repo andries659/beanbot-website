@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-26",
+    "title": "New Features",
+    "changes": [
+      { "tag": "Added", "text": "Users can set their own rank card bg (Can be a GIF or Image, but you need to use the link)." },
+      { "tag": "Added", "text": "Added a new ticket system (Locked till 2027)." },
+      { "tag": "Changed", "text": "Changelogs now ping a set role for changelogs." },
+    ]
+  },
+  {
     "date": "2026-10-12",
     "title": "Simple Improvements",
     "changes": [
